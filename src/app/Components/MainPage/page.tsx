@@ -118,7 +118,7 @@ function MainPageContent() {
           </div>
 
           {/* outer div */}
-          <div className="bg-[#d5e1e173] border-2 border-white shadow-inner-all shadow-white  rounded-3xl h-[400px] w-[280px] md:h-[480px] md:w-[350px] lg:h-[550px] lg:w-[450px]  2xl:h-[620px] 2xl:w-[520px]">
+          <div className="bg-[#d5e1e1a5] border-2 border-white shadow-inner-all shadow-white  rounded-3xl h-[400px] w-[280px] md:h-[480px] md:w-[350px] lg:h-[550px] lg:w-[450px]  2xl:h-[620px] 2xl:w-[520px]">
             {/* Time  */}
             <div className="flex items-start">
               <div className="flex px-3 items-center space-x-2 pt-3">
@@ -139,7 +139,7 @@ function MainPageContent() {
               </p>
               <div className="flex items-center space-x-3 ">
                 <FaTemperatureHalf className="text-blue-500 text-3xl md:text-4xl lg:text-[45px]  2xl:text-7xl" />
-                <p className=" text-yellow-300 text-3xl lg:text-[45px] md:text-4xl 2xl:text-7xl">
+                <p className=" text-[#faf604] text-3xl lg:text-[45px] md:text-4xl 2xl:text-7xl">
                   {intTemperature}°C
                 </p>
               </div>
@@ -149,7 +149,7 @@ function MainPageContent() {
                 <p className="font-bold text-xs md:text-sm lg:text-[15px] 2xl:text-xl text-white">
                   Humidity
                 </p>
-                <p className="text-yellow-300 text-xs  md:text-sm lg:text-[15px]  2xl:text-xl font-bold">
+                <p className="text-[#faf604] text-xs  md:text-sm lg:text-[15px]  2xl:text-xl font-bold">
                   {intHumidity}
                   <span className="text-[10px] md:text-[13px]  2xl:text-sm">
                     %
@@ -166,7 +166,7 @@ function MainPageContent() {
                 </p>
                 <div className="flex items-center space-x-2">
                   <IoRainy className="text-sm md:text-lg lg:text-xl 2xl:text-3xl text-blue-500" />
-                  <p className="text-yellow-300 text-sm md:text-lg lg:text-xl 2xl:text-3xl font-bold">
+                  <p className="text-[#faf604] text-sm md:text-lg lg:text-xl 2xl:text-3xl font-bold">
                     {intRainAcc}{" "}
                     <span className="text-[10px] md:text-[13px]  2xl:text-lg">
                       mm
@@ -180,7 +180,7 @@ function MainPageContent() {
                 </p>
                 <div className="flex items-center space-x-2">
                   <GiDroplets className="text-sm md:text-lg lg:text-xl 2xl:text-3xl text-blue-500" />
-                  <p className="text-yellow-300 text-sm md:text-lg lg:text-xl  2xl:text-2xl font-bold">
+                  <p className="text-[#faf604] text-sm md:text-lg lg:text-xl  2xl:text-2xl font-bold">
                     {intRainInt}{" "}
                     <span className="text-[10px] md:text-[13px] 2xl:text-lg">
                       mm/h
@@ -198,7 +198,7 @@ function MainPageContent() {
                 </p>
                 <div className="flex items-center space-x-2">
                   <FaWind className="text-sm md:text-lg lg:text-xl 2xl:text-3xl text-blue-500" />
-                  <p className="text-yellow-300 text-sm md:text-lg lg:text-xl 2xl:text-2xl font-bold">
+                  <p className="text-[#faf604] text-sm md:text-lg lg:text-xl 2xl:text-2xl font-bold">
                     {intWindSpeed}{" "}
                     <span className="text-[10px] md:text-[13px] 2xl:text-lg">
                       Km/h
@@ -213,7 +213,7 @@ function MainPageContent() {
                 <div className="flex items-center  space-x-2">
                   <ImCompass2 className="text-sm md:text-lg lg:text-xl  2xl:text-3xl text-blue-500" />
 
-                  <p className="text-yellow-300 text-sm md:text-lg lg:text-xl  2xl:text-2xl font-bold">
+                  <p className="text-[#faf604] text-sm md:text-lg lg:text-xl  2xl:text-2xl font-bold">
                     {intWindDir} °
                   </p>
                 </div>
