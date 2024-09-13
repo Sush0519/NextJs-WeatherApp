@@ -54,7 +54,9 @@ export default function MainPage() {
     ["weatherData", localityId],
 
     async () => {
-      if (!localityId) return null;
+      if (!localityId) {
+        throw new Error("No localityId provided");
+      }
 
       const { data } = await axios.get<WeatherApiResponse>(
         `https://www.weatherunion.com/gw/weather/external/v0/get_locality_weather_data?locality_id=${localityId}`,
