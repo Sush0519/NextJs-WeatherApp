@@ -38,12 +38,24 @@ export default function Search_Section({
     setSearchTerm(newTerm);
 
     if (newTerm.trim()) {
-      const newSuggestions = WeatherReport.document.page.flatMap((page: any) =>
+      const newSuggestions = WeatherReport.document.page.flatMap((page) =>
         Object.entries(page.row)
-          .map(([key, value]) => ({
-            localityName: value.column[1]?.text?.text?.trim().toLowerCase(),
-            localityid: value.column[2]?.text?.text || key,
-          }))
+          .map(([key, value]) => {
+            const localityColumn1 = value.column[1]?.text;
+            const localityColumn2 = value.column[2]?.text;
+
+            const localityName =
+              typeof localityColumn1 === "object"
+                ? localityColumn1.text?.trim().toLowerCase()
+                : "";
+            const localityId =
+              typeof localityColumn2 === "object" ? localityColumn2.text : key;
+
+            return {
+              localityName,
+              localityid: localityId,
+            };
+          })
           .filter(
             ({ localityName }) =>
               localityName &&
