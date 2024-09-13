@@ -38,7 +38,7 @@ export default function Search_Section({
     setSearchTerm(newTerm);
 
     if (newTerm.trim()) {
-      const newSuggestions = WeatherReport.document.page.flatMap((page) =>
+      const newSuggestions = WeatherReport.document.page.flatMap((page: any) =>
         Object.entries(page.row)
           .map(([key, value]) => ({
             localityName: value.column[1]?.text?.text?.trim().toLowerCase(),
