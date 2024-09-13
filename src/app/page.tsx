@@ -68,7 +68,11 @@ export default function Home() {
   return (
     <div className="flex flex-col bg-gray-50 min-h-screen">
       <Navbar />
-      <Search_Section onLocalitySelect={handleLocalitySelection} />
+      <Search_Section
+        localityName={localityName}
+        localityId={localityId}
+        onLocalitySelect={handleLocalitySelection}
+      />
       <Footer />
     </div>
   );
