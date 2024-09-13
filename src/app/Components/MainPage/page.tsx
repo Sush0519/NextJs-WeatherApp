@@ -1,7 +1,6 @@
 "use client";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Main_Navbar from "../MainPage/Main_Navbar";
-import Image from "next/image";
 import { useQuery } from "react-query";
 import { ImSpinner11 } from "react-icons/im";
 import { ImLocation2 } from "react-icons/im";
@@ -13,7 +12,7 @@ import { FaWind } from "react-icons/fa";
 import { IoRainy } from "react-icons/io5";
 import axios from "axios";
 import DateTimeDisplay from "../MainPage/DateTimeDisplay";
-import { usePathname, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 interface LocalityWeatherData {
   temperature: number;
@@ -32,7 +31,7 @@ interface WeatherApiResponse {
   locality_id: string;
 }
 
-export default function MainPage() {
+function MainPageContent() {
   const searchParams = useSearchParams();
 
   const localityIdFromUrl = searchParams.get("locality_id");
@@ -224,5 +223,13 @@ export default function MainPage() {
         </section>
       </main>
     </div>
+  );
+}
+
+export default function MainPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <MainPageContent />
+    </Suspense>
   );
 }
