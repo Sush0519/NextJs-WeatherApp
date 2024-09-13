@@ -100,7 +100,7 @@ export default function Search_Section({
           />
 
           {searchTerm && suggestions.length > 0 && (
-            <div className="bg-white -mt-3 px-2 w-[350px] sm:w-[400px] md:w-[460px] lg:w-[540px] xl:w-[590px] rounded-b-md  absolute z-50 top-14 max-h-[150px] overflow-y-auto border-l-[1px] border-r-[1px] border-b-[1px] border-gray-200 shadow-md">
+            <div className="bg-white -mt-3 px-2 w-[300px] sm:w-[400px] md:w-[460px] lg:w-[540px] xl:w-[590px] rounded-b-md  absolute z-50 top-14 max-h-[150px] overflow-y-auto border-l-[1px] border-r-[1px] border-b-[1px] border-gray-200 shadow-md">
               {suggestions.map(({ localityName, localityid }, index) => (
                 <Link
                   key={index}
