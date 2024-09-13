@@ -61,7 +61,7 @@ export default function Search_Section({
 
   return (
     <div className=" w-full absolute top-0 h-screen   flex flex-col justify-start items-center">
-      <Image
+      <img
         className=" sm:w-44 md:w-52 lg:w-64 xl:w-72 w-32 mt-16 lg:mt-20"
         src="https://lh3.googleusercontent.com/d_S5gxu_S1P6NR1gXeMthZeBzkrQMHdI5uvXrpn3nfJuXpCjlqhLQKH_hbOxTHxFhp5WugVOEcl4WDrv9rmKBDOMExhKU5KmmLFQVg"
         alt=""
@@ -105,13 +105,13 @@ export default function Search_Section({
             </div>
           )}
           <div className="flex absolute justify-center space-x-2 right-5 items-center">
-            <Image
+            <img
               className="w-5 sm:w-6 lg:w-8 "
               src="https://lh3.googleusercontent.com/PZfvvpPrihOCoQmwPn-qkBNjHrcESxEKJNlmvbcI-OWSuquFEee-Mwls_KVFIvhpl6kxGcEdqZDKTP3qOp5GvSSyIAI6RUbG9ni82g"
               alt=""
             />
 
-            <Image
+            <img
               className="w-3 sm:w-4 lg:w-6"
               src="https://lh3.googleusercontent.com/NFxLdaBDrLD43tZ017kWF3E3kvTos2rT5Pk3zejZEh6e2rB567Mbn0nQK9nd_C1DE3YnNbLgaD9J_897t5tU7o34lenEFL9xDGm-MKlJqMA_L4Ts6w"
               alt=""

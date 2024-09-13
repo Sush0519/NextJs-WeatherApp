@@ -106,7 +106,7 @@ export default function MainPage() {
         onSearchTermChange={(term) => setLocalityName(term)}
       />
       <main className="px-3 mx-auto flex justify-center items-center flex-col w-full ">
-        <Image
+        <img
           className="h-screen flex justify-center items-center relative w-screen object-cover "
           src="https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt=""
