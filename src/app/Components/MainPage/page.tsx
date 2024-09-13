@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Main_Navbar from "../MainPage/Main_Navbar";
-
+import Image from "next/image";
 import { useQuery } from "react-query";
 import { ImSpinner11 } from "react-icons/im";
 import { ImLocation2 } from "react-icons/im";
@@ -106,7 +106,7 @@ export default function MainPage() {
         onSearchTermChange={(term) => setLocalityName(term)}
       />
       <main className="px-3 mx-auto flex justify-center items-center flex-col w-full ">
-        <img
+        <Image
           className="h-screen flex justify-center items-center relative w-screen object-cover "
           src="https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt=""
