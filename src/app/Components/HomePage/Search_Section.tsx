@@ -93,7 +93,7 @@ export default function Search_Section({
           </button>
 
           <input
-            className=" px-3 text-xs lg:px-4  w-[350px] sm:w-[400px] md:w-[460px] lg:w-[540px] xl:w-[590px] border-t-[1px] border-b-[1px] border-r-[1px] border-gray-200 rounded-r-full  focus:outline-none text-start  h-full"
+            className=" px-3 text-xs lg:px-4  w-[300px]  sm:w-[400px] md:w-[460px] lg:w-[540px] xl:w-[590px] border-t-[1px] border-b-[1px] border-r-[1px] border-gray-200 rounded-r-full  focus:outline-none text-start  h-full"
             type="text"
             value={searchTerm}
             onChange={onChange}
