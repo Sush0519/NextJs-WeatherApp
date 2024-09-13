@@ -4,7 +4,7 @@ const DateTimeDisplay = () => {
   const [dateTime, setDateTime] = useState({ date: "", time: "" });
 
   useEffect(() => {
-    const formatDate = (date) => {
+    const formatDate = (date: Date) => {
       const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
       const months = [
         "Jan",
@@ -29,7 +29,7 @@ const DateTimeDisplay = () => {
       return `${dayName}  ${day} ${monthName} ${year}`;
     };
 
-    const formatTime = (date) => {
+    const formatTime = (date: Date) => {
       let hours = date.getHours();
       const minutes = String(date.getMinutes()).padStart(2, "0");
       const period = hours >= 12 ? "PM" : "AM";
