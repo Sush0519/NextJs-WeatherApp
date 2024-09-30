@@ -1,6 +1,6 @@
 𝐍𝐞𝐱𝐭.𝐣𝐬 𝐖𝐞𝐚𝐭𝐡𝐞𝐫𝐀𝐩𝐩 🌤️
 
-𝒀𝒐𝒖 𝒄𝒂𝒏 𝒗𝒊𝒆𝒘 𝒂𝒏𝒅 𝒆𝒙𝒑𝒍𝒐𝒓𝒆 𝒕𝒉𝒆 𝑵𝒆𝒙𝒕.𝒋𝒔 𝑾𝒆𝒂𝒕𝒉𝒆𝒓𝑨𝒑𝒑 𝒃𝒚 𝒗𝒊𝒔𝒊𝒕𝒊𝒏𝒈 𝒕𝒉𝒆 𝒍𝒊𝒏𝒌📎 -> https://next-js-weather-app-mauve.vercel.app/ 
+𝒀𝒐𝒖 𝒄𝒂𝒏 𝒗𝒊𝒆𝒘 𝒂𝒏𝒅 𝒆𝒙𝒑𝒍𝒐𝒓𝒆 𝒕𝒉𝒆 𝑵𝒆𝒙𝒕.𝒋𝒔 𝑾𝒆𝒂𝒕𝒉𝒆𝒓𝑨𝒑𝒑 𝒃𝒚 𝒗𝒊𝒔𝒊𝒕𝒊𝒏𝒈 𝒕𝒉𝒆 𝒍𝒊𝒏𝒌📎 -> https://next-js-weather-app-git-main-susmita-nayaks-projects.vercel.app/
 
 𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰 📖
 Welcome to the Next.js WeatherApp! This project demonstrates a weather  web application built with Next.js and integrated with the Zomato Weather API. The application allows users to search for weather information by entering a locality name, providing a smooth and interactive experience.
