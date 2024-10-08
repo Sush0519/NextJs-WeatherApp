@@ -7,6 +7,7 @@ Welcome to the Next.js WeatherApp! This project demonstrates a weather  web appl
 
 
 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 ⚙️
+
 𝐒𝐞𝐚𝐫𝐜𝐡 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐚𝐥𝐢𝐭𝐲: Enter a locality name in the search bar on the Google homepage to find weather information.
 
 𝐖𝐞𝐚𝐭𝐡𝐞𝐫 𝐃𝐢𝐬𝐩𝐥𝐚𝐲 𝐏𝐚𝐠𝐞: After entering a locality, you will be redirected to a page that displays current weather details for the entered location.
@@ -15,6 +16,7 @@ Welcome to the Next.js WeatherApp! This project demonstrates a weather  web appl
 
 
 𝐔𝐬𝐚𝐠𝐞 📃
+
 𝐀𝐜𝐜𝐞𝐬𝐬 𝐭𝐡𝐞 𝐇𝐨𝐦𝐞𝐩𝐚𝐠𝐞: Upon opening the application, you'll see the Google homepage with a search bar.
 
 𝐒𝐞𝐚𝐫𝐜𝐡 𝐟𝐨𝐫 𝐋𝐨𝐜𝐚𝐥𝐢𝐭𝐲: Enter a locality name in the search bar and hit Enter. This will redirect you to the Weather Display Page.
